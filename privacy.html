@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacidade — Homelab Backup</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 24px;
+      line-height: 1.7;
+      color: #222;
+    }
+    a { color: #165dcc; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Política de privacidade</h1>
+    <p>Última atualização: 13 de novembro de 2026.</p>
+
+    <h2>Finalidade</h2>
+    <p>
+      Homelab Backup é uma integração de uso pessoal para armazenar
+      cópias de segurança criptografadas no Google Drive do próprio
+      responsável. Não oferece cadastro ou serviço para terceiros.
+    </p>
+
+    <h2>Acesso ao Google Drive</h2>
+    <p>
+      A autorização é realizada pelo Google por meio de OAuth.
+      O projeto utiliza o rclone com o escopo drive.file para gerenciar
+      arquivos criados pela integração ou explicitamente disponibilizados
+      a ela, conforme as permissões concedidas pelo titular.
+    </p>
+    <p>
+      O acesso tem como finalidade enviar, listar, verificar, recuperar
+      e remover backups gerenciados pela integração. Não tem como
+      finalidade ler outros documentos pessoais do titular.
+    </p>
+
+    <h2>Armazenamento e proteção</h2>
+    <p>
+      O fluxo de backup é projetado para criptografar os arquivos
+      antes do envio ao Google Drive. Credenciais OAuth e configurações
+      necessárias à automação são armazenadas no ambiente privado
+      administrado pelo responsável, não neste site ou repositório público.
+    </p>
+
+    <h2>Compartilhamento</h2>
+    <p>
+      Os backups são enviados ao Google Drive para armazenamento.
+      O projeto não vende dados nem os utiliza para publicidade.
+      O funcionamento do Google Drive está sujeito às políticas
+      e condições do Google.
+    </p>
+
+    <h2>Retenção e exclusão</h2>
+    <p>
+      A política planejada mantém os sete backups mais recentes
+      concluídos com sucesso. A limpeza dos excedentes ocorre após
+      a confirmação de um novo envio bem-sucedido.
+      Arquivos removidos podem permanecer na lixeira do Google Drive
+      até sua exclusão definitiva, conforme as configurações do serviço.
+    </p>
+
+    <h2>Revogação de acesso</h2>
+    <p>
+      O titular pode revogar a autorização nas configurações de segurança
+      da Conta Google. A revogação interrompe novos acessos da integração,
+      mas não exclui automaticamente backups já armazenados.
+      Esses arquivos podem ser excluídos diretamente pelo titular.
+    </p>
+
+    <h2>Este site</h2>
+    <p>
+      Esta página estática não possui formulário de login, não recebe
+      backups ou tokens OAuth e não inclui ferramentas próprias
+      de publicidade ou análise de navegação. A hospedagem é realizada
+      pelo GitHub Pages e está sujeita à política de privacidade do GitHub.
+    </p>
+
+    <p><a href="index.html">Voltar à página inicial</a></p>
+  </main>
+</body>
+</html>
